@@ -1,0 +1,337 @@
+@charset "utf-8";
+/***********************************************
+************************************************
+
+	Author: Mark Elphinstone-Hoadley UPDATED
+	Company: t-six.com
+	Copyright: 2011: Mark Elphinstone-Hoadley / t-six.com
+
+************************************************
+************************************************/
+
+
+/*Whole Page*/
+#whole a { color: #39419e; background-color: transparent; border-color: #CCCCCC; text-decoration: none; font-weight: bold; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; }
+#whole a:hover, #whole a:active, #whole a.active, #whole a.isset { color: #39419e; background-color: transparent; border-color: #CCCCCC; text-decoration: underline; background-position: left top; }
+#whole { color: #000000; background-color: #FFFFFF; font-size: 12px; background-image: none; background-position: center top; background-repeat: no-repeat; background-attachment: fixed; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; }
+#whole * { font-family: Arial, Tahoma, Verdana, sans serif; }
+/*Main*/
+#main a { color: inherit; background-color: inherit; border-color: transparent; text-decoration: none; font-weight: normal; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; border-width: 0px; border-style: solid; }
+#main a:hover, #main a:active, #main a.active, #main a.isset { color: inherit; background-color: inherit; border-color: transparent; text-decoration: underline; background-position: left top; }
+#main { color: inherit; font-size: inherit; margin-left: 10px; margin-right: 10px; margin-top: 0px; margin-bottom: 0px; }
+#main-inner { background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-style: solid; }
+#main-outer { width: auto; margin: 0 auto; }
+/*affected selector*/
+#whole { text-align: center; }
+#main .top-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#main .top-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#main .bottom-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#main .bottom-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#main .top-inner { border-top: 0px solid #AAAAAA; background-color:transparent; height: 0px ; }
+#main .bottom-inner { border-bottom: 0px solid #AAAAAA; background-color:transparent; height: 0px ; }
+#main .body-inner { background-color: transparent; }
+#main .body-left { border-left:0px solid #AAAAAA; }
+#main .body-right { border-right:0px solid #AAAAAA; }
+/*Surround*/
+#body a { color: inherit; background-color: inherit; border-color: transparent; text-decoration: none; font-weight: normal; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; border-width: 0px; border-style: solid; }
+#body a:hover, #body a:active, #body a.active, #body a.isset { color: inherit; background-color: inherit; border-color: transparent; text-decoration: underline; background-position: left top; }
+#body { color: inherit; font-size: inherit; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0px; }
+#body-inner { background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-style: solid; }
+#body .top-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#body .top-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#body .bottom-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#body .bottom-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#body .top-inner { border-top: 0px solid #AAAAAA; background-color:transparent; height: 0px ; }
+#body .bottom-inner { border-bottom: 0px solid #AAAAAA; background-color:transparent; height: 0px ; }
+#body .body-inner { background-color: transparent; }
+#body .body-left { border-left:0px solid #AAAAAA; }
+#body .body-right { border-right:0px solid #AAAAAA; }
+/*Content*/
+#content a { color: #39419e; background-color: inherit; border-color: transparent; text-decoration: none; font-weight: bold; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; border-width: 0px; border-style: solid; }
+#content a:hover, #content a:active, #content a.active, #content a.isset { color: #39419e; background-color: inherit; border-color: transparent; text-decoration: underline; background-position: left top; }
+#content { color: inherit; font-size: inherit; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; }
+#content-inner { background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-style: solid; }
+#content .top-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#content .top-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#content .bottom-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#content .bottom-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#content .top-inner { border-top: 0px solid #424242; background-color:transparent; height: 0px ; }
+#content .bottom-inner { border-bottom: 0px solid #424242; background-color:transparent; height: 0px ; }
+#content .body-inner { background-color: transparent; }
+#content .body-left { border-left:0px solid #424242; }
+#content .body-right { border-right:0px solid #424242; }
+/*Feed Node*/
+#content-col .feed-node a { color: #39419e; background-color: inherit; border-color: transparent; text-decoration: none; font-weight: bold; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; border-width: 0px; border-style: solid; }
+#content-col .feed-node a:hover, #content-col .feed-node a:active, #content-col .feed-node a.active, #content-col .feed-node a.isset { color: #39419e; background-color: inherit; border-color: transparent; text-decoration: underline; background-position: left top; }
+#content-col .feed-node { color: #000000; font-size: 12px; margin-left: 0px; margin-right: 0px; margin-top: 20px; margin-bottom: 0px; }
+#content-col .feed-node-inner { background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-style: solid; }
+#content-col .feed-node .top-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#content-col .feed-node .top-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#content-col .feed-node .bottom-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#content-col .feed-node .bottom-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#content-col .feed-node .top-inner { border-top: 0px solid #424242; background-color:transparent; height: 0px ; }
+#content-col .feed-node .bottom-inner { border-bottom: 0px solid #424242; background-color:transparent; height: 0px ; }
+#content-col .feed-node .body-inner { background-color: transparent; }
+#content-col .feed-node .body-left { border-left:0px solid #424242; }
+#content-col .feed-node .body-right { border-right:0px solid #424242; }
+/*Item Thumbnail*/
+#whole .node-image { border-color: #CCCCCC; background-color: transparent; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; margin-left: 0px; margin-right: 10px; margin-top: 0px; margin-bottom: 0px; padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px; border-width: 1px; border-style: solid; }
+/*Quotes and codes*/
+#whole .section { border-color: #CCCCCC; background-color: transparent; font-size: inherit; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 10px; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; border-width: 1px; border-style: solid; }
+/*Header Menu Container*/
+#header-menu { margin-left: 10px; margin-right: 10px; margin-top: 0px; margin-bottom: 10px; }
+#header-menu-inner { background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-style: solid; }
+#header-menu .top-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#header-menu .top-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#header-menu .bottom-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#header-menu .bottom-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#header-menu .top-inner { border-top: 0px solid #424242; background-color:transparent; height: 0px ; }
+#header-menu .bottom-inner { border-bottom: 0px solid #424242; background-color:transparent; height: 0px ; }
+#header-menu .body-inner { background-color: transparent; }
+#header-menu .body-left { border-left:0px solid #424242; }
+#header-menu .body-right { border-right:0px solid #424242; }
+/*Header Menu Button*/
+#header-menu .menu-button a { color: #444444; background-color: transparent; border-color: #010767; text-decoration: none; font-weight: bold; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; margin-left: 0px; margin-right: 8px; margin-top: 0px; margin-bottom: 0px; padding-left: 12px; padding-right: 12px; padding-top: 8px; padding-bottom: 8px; border-width: 0px; border-width: 0px; border-style: solid; }
+#header-menu .menu-button a:hover, #header-menu .menu-button a:active, #header-menu .menu-button a.active, #header-menu .menu-button a.isset { color: #FFFFFF; background-color: #39419e; border-color: #585E9C; text-decoration: none; background-position: left top; }
+#header-menu .menu-button { font-size: 11px; border-style: solid; }#header-menu .menu-button .distinct { float:left; }
+#header-menu .menu-button .distinct a { display:block; }
+/*Header Menu Drop Down Button & Pop Ups*/
+#header-menu .menu-dropdown-button a, #whole #col-right .box .popup a, #whole #notification-box a, #whole #userinfo-box a, #whole #whosonline-outer .popup, #whole #whos-watching .popup, #whole #content-col .teoti-points .popup, #whole #content-col #filter-box .popup a, #whole .popup.status-box { color: #FFFFFF; background-color: #39419e; border-color: #585E9C; text-decoration: none; font-weight: bold; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0px; padding-left: 12px; padding-right: 12px; padding-top: 8px; padding-bottom: 8px; border-width: 0px; border-style: solid; }
+#header-menu .menu-dropdown-button a:hover, #header-menu .menu-dropdown-button a:active, #header-menu .menu-dropdown-button a.active, #header-menu .menu-dropdown-button a.isset, #whole #col-right .box .popup a:hover, #whole #notification-box a:hover, #whole #userinfo-box a:hover, #whole #content-col #filter-box .popup a:hover { color: #FFFFFF; background-color: #5158ad; border-color: #010767; text-decoration: none; background-position: left top; }
+#header-menu .menu-dropdown-button { border-color: #323232; font-size: 11px; border-width: 0px; width: 240px; border-style: solid; }
+/*affected selector*/
+#whole #content-col .teoti-points .popup a { color: #FFFFFF; }#whole #content-col .teoti-points .popup a { background:transparent; }
+#whole #content-col #filter-box .popup { padding:0px; }
+#header-menu .menu-dropdown-button { position:absolute; z-index:20; display:none; }
+#whole .popup.status-box { position:fixed; top:0;right:0; z-index:800; }
+/*Right Column*/
+#col-right a { color: #000000; background-color: inherit; border-color: transparent; text-decoration: none; font-weight: normal; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; border-width: 0px; border-style: solid; }
+#col-right a:hover, #col-right a:active, #col-right a.active, #col-right a.isset { color: #000000; background-color: inherit; border-color: transparent; text-decoration: underline; background-position: left top; }
+#col-right { color: #666666; font-size: 12px; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; }
+#col-right-inner { background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-style: solid; }
+#col-right-outer { width: 300px; }
+/*affected selector*/
+#content-col { margin-right: 300px; }
+#col-right .top-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#col-right .top-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#col-right .bottom-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#col-right .bottom-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#col-right .top-inner { border-top: 1px solid #cccccc; background-color:#FFFFFF; height: 0px ; }
+#col-right .bottom-inner { border-bottom: 1px solid #cccccc; background-color:#FFFFFF; height: 0px ; }
+#col-right .body-inner { background-color: #FFFFFF; }
+#col-right .body-left { border-left:1px solid #cccccc; }
+#col-right .body-right { border-right:1px solid #cccccc; }
+/*Banner*/
+#banner a { color: #FFFFFF; background-color: transparent; border-color: transparent; text-decoration: none; font-weight: bold; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; border-width: 0px; border-style: solid; }
+#banner a:hover, #banner a:active, #banner a.active, #banner a.isset { color: #FFFFFF; background-color: transparent; border-color: transparent; text-decoration: underline; background-position: left top; }
+#banner { color: #FFFFFF; font-size: inherit; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0px; }
+#banner-inner { background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; border-style: solid; }
+#banner .top-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#banner .top-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#banner .bottom-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#banner .bottom-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#banner .top-inner { border-top: 0px solid #AAAAAA; background-color:#39419e; height: 0px ; }
+#banner .bottom-inner { border-bottom: 0px solid #AAAAAA; background-color:#39419e; height: 0px ; }
+#banner .body-inner { background-color: #39419e; }
+#banner .body-left { border-left:0px solid #AAAAAA; }
+#banner .body-right { border-right:0px solid #AAAAAA; }
+/*User Account Box*/
+#login a { color: #000000; background-color: inherit; border-color: transparent; text-decoration: none; font-weight: normal; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; border-width: 0px; border-style: solid; }
+#login a:hover, #login a:active, #login a.active, #login a.isset { color: #000000; background-color: inherit; border-color: transparent; text-decoration: underline; background-position: left top; }
+#login { color: inherit; font-size: inherit; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0px; }
+#login-inner { background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; border-style: solid; }
+#login .top-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#login .top-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#login .bottom-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#login .bottom-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#login .top-inner { border-top: 0px solid #AAAAAA; background-color:transparent; height: 0px ; }
+#login .bottom-inner { border-bottom: 0px solid #AAAAAA; background-color:transparent; height: 0px ; }
+#login .body-inner { background-color: transparent; }
+#login .body-left { border-left:0px solid #AAAAAA; }
+#login .body-right { border-right:0px solid #AAAAAA; }
+/*Who's Online*/
+#whosonline a { color: #000000; background-color: inherit; border-color: transparent; text-decoration: none; font-weight: normal; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; border-width: 0px; border-style: solid; }
+#whosonline a:hover, #whosonline a:active, #whosonline a.active, #whosonline a.isset { color: #000000; background-color: inherit; border-color: transparent; text-decoration: underline; background-position: left top; }
+#whosonline { color: inherit; font-size: inherit; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0px; }
+#whosonline-inner { background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; border-style: solid; }
+#whosonline .top-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#whosonline .top-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#whosonline .bottom-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#whosonline .bottom-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#whosonline .top-inner { border-top: 0px solid #AAAAAA; background-color:transparent; height: 0px ; }
+#whosonline .bottom-inner { border-bottom: 0px solid #AAAAAA; background-color:transparent; height: 0px ; }
+#whosonline .body-inner { background-color: transparent; }
+#whosonline .body-left { border-left:0px solid #AAAAAA; }
+#whosonline .body-right { border-right:0px solid #AAAAAA; }
+/*Box Header (active)*/
+#col-right .box.active .header a { color: #FFFFFF; background-color: transparent; border-color: transparent; text-decoration: none; font-weight: bold; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; border-width: 0px; border-style: solid; }
+#col-right .box.active .header a:hover, #col-right .box.active .header a:active, #col-right .box.active .header a.active, #col-right .box.active .header a.isset { color: inherit; background-color: transparent; border-color: transparent; text-decoration: none; background-position: left top; }
+#col-right .box.active .header { color: #FFFFFF; font-size: inherit; margin-left: 0px; margin-right: 0px; margin-top: 5px; margin-bottom: 0px; }
+#col-right .box.active .header-inner { background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px; border-style: solid; }
+#col-right .box.active .header .top-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#col-right .box.active .header .top-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#col-right .box.active .header .bottom-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#col-right .box.active .header .bottom-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#col-right .box.active .header .top-inner { border-top: 0px solid #AAAAAA; background-color:#39419e; height: 0px ; }
+#col-right .box.active .header .bottom-inner { border-bottom: 0px solid #AAAAAA; background-color:#39419e; height: 0px ; }
+#col-right .box.active .header .body-inner { background-color: #39419e; }
+#col-right .box.active .header .body-left { border-left:0px solid #AAAAAA; }
+#col-right .box.active .header .body-right { border-right:0px solid #AAAAAA; }
+/*Box Header - Hot*/
+#hot .header a { color: #000000; background-color: transparent; border-color: transparent; text-decoration: none; font-weight: normal; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; border-width: 0px; border-style: solid; }
+#hot .header a:hover, #hot .header a:active, #hot .header a.active, #hot .header a.isset { color: #000000; background-color: transparent; border-color: transparent; text-decoration: none; background-position: left top; }
+#hot .header { color: #DDDDDD; font-size: inherit; margin-left: 0px; margin-right: 0px; margin-top: 5px; margin-bottom: 0px; }
+#hot .header-inner { background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px; border-style: solid; }
+#hot .header .top-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#hot .header .top-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#hot .header .bottom-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#hot .header .bottom-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#hot .header .top-inner { border-top: 0px solid #AAAAAA; background-color:#EEEEEE; height: 0px ; }
+#hot .header .bottom-inner { border-bottom: 0px solid #AAAAAA; background-color:#EEEEEE; height: 0px ; }
+#hot .header .body-inner { background-color: #EEEEEE; }
+#hot .header .body-left { border-left:0px solid #AAAAAA; }
+#hot .header .body-right { border-right:0px solid #AAAAAA; }
+/*Box Header - Random*/
+#random .header a { color: #000000; background-color: transparent; border-color: transparent; text-decoration: none; font-weight: normal; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; border-width: 0px; border-style: solid; }
+#random .header a:hover, #random .header a:active, #random .header a.active, #random .header a.isset { color: #000000; background-color: transparent; border-color: transparent; text-decoration: none; background-position: left top; }
+#random .header { color: #DDDDDD; font-size: inherit; margin-left: 0px; margin-right: 0px; margin-top: 5px; margin-bottom: 0px; }
+#random .header-inner { background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px; border-style: solid; }
+#random .header .top-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#random .header .top-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#random .header .bottom-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#random .header .bottom-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#random .header .top-inner { border-top: 0px solid #AAAAAA; background-color:#EEEEEE; height: 0px ; }
+#random .header .bottom-inner { border-bottom: 0px solid #AAAAAA; background-color:#EEEEEE; height: 0px ; }
+#random .header .body-inner { background-color: #EEEEEE; }
+#random .header .body-left { border-left:0px solid #AAAAAA; }
+#random .header .body-right { border-right:0px solid #AAAAAA; }
+/*Box Header - Sticky*/
+#sticky .header a { color: #000000; background-color: transparent; border-color: transparent; text-decoration: none; font-weight: normal; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; border-width: 0px; border-style: solid; }
+#sticky .header a:hover, #sticky .header a:active, #sticky .header a.active, #sticky .header a.isset { color: #000000; background-color: transparent; border-color: transparent; text-decoration: none; background-position: left top; }
+#sticky .header { color: #DDDDDD; font-size: inherit; margin-left: 0px; margin-right: 0px; margin-top: 5px; margin-bottom: 0px; }
+#sticky .header-inner { background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px; border-style: solid; }
+#sticky .header .top-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#sticky .header .top-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#sticky .header .bottom-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#sticky .header .bottom-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#sticky .header .top-inner { border-top: 0px solid #AAAAAA; background-color:#EEEEEE; height: 0px ; }
+#sticky .header .bottom-inner { border-bottom: 0px solid #AAAAAA; background-color:#EEEEEE; height: 0px ; }
+#sticky .header .body-inner { background-color: #EEEEEE; }
+#sticky .header .body-left { border-left:0px solid #AAAAAA; }
+#sticky .header .body-right { border-right:0px solid #AAAAAA; }
+/*Box Header - Scores*/
+#scores .header a { color: #000000; background-color: transparent; border-color: transparent; text-decoration: none; font-weight: normal; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; border-width: 0px; border-style: solid; }
+#scores .header a:hover, #scores .header a:active, #scores .header a.active, #scores .header a.isset { color: #000000; background-color: transparent; border-color: transparent; text-decoration: none; background-position: left top; }
+#scores .header { color: #DDDDDD; font-size: inherit; margin-left: 0px; margin-right: 0px; margin-top: 5px; margin-bottom: 0px; }
+#scores .header-inner { background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px; border-style: solid; }
+#scores .header .top-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#scores .header .top-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#scores .header .bottom-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#scores .header .bottom-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#scores .header .top-inner { border-top: 0px solid #AAAAAA; background-color:#EEEEEE; height: 0px ; }
+#scores .header .bottom-inner { border-bottom: 0px solid #AAAAAA; background-color:#EEEEEE; height: 0px ; }
+#scores .header .body-inner { background-color: #EEEEEE; }
+#scores .header .body-left { border-left:0px solid #AAAAAA; }
+#scores .header .body-right { border-right:0px solid #AAAAAA; }
+/*Box Header - Profiles*/
+#profiles .header a { color: #000000; background-color: transparent; border-color: transparent; text-decoration: none; font-weight: normal; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; border-width: 0px; border-style: solid; }
+#profiles .header a:hover, #profiles .header a:active, #profiles .header a.active, #profiles .header a.isset { color: #000000; background-color: transparent; border-color: transparent; text-decoration: none; background-position: left top; }
+#profiles .header { color: #DDDDDD; font-size: inherit; margin-left: 0px; margin-right: 0px; margin-top: 5px; margin-bottom: 0px; }
+#profiles .header-inner { background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px; border-style: solid; }
+#profiles .header .top-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#profiles .header .top-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#profiles .header .bottom-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#profiles .header .bottom-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#profiles .header .top-inner { border-top: 0px solid #AAAAAA; background-color:#EEEEEE; height: 0px ; }
+#profiles .header .bottom-inner { border-bottom: 0px solid #AAAAAA; background-color:#EEEEEE; height: 0px ; }
+#profiles .header .body-inner { background-color: #EEEEEE; }
+#profiles .header .body-left { border-left:0px solid #AAAAAA; }
+#profiles .header .body-right { border-right:0px solid #AAAAAA; }
+/*Shoutbox and comments*/
+#shoutbox a { color: inherit; background-color: inherit; border-color: transparent; text-decoration: none; font-weight: normal; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; border-width: 0px; border-style: solid; }
+#shoutbox a:hover, #shoutbox a:active, #shoutbox a.active, #shoutbox a.isset { color: inherit; background-color: inherit; border-color: transparent; text-decoration: underline; background-position: left top; }
+#shoutbox { color: inherit; font-size: 12px; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; }
+#shoutbox-inner { background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; padding-left: 0px; padding-right: 0px; padding-top: 10px; padding-bottom: 10px; border-style: solid; }
+#shoutbox .top-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#shoutbox .top-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#shoutbox .bottom-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#shoutbox .bottom-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#shoutbox .top-inner { border-top: 0px solid #424242; background-color:transparent; height: 0px ; }
+#shoutbox .bottom-inner { border-bottom: 0px solid #424242; background-color:transparent; height: 0px ; }
+#shoutbox .body-inner { background-color: transparent; }
+#shoutbox .body-left { border-left:0px solid #424242; }
+#shoutbox .body-right { border-right:0px solid #424242; }
+/*Page Header*/
+#header { background-image: none; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0px; }
+#header a { background-image: url(/images/teoti-simples.png); background-position: top center; background-repeat: no-repeat; background-attachment: scroll; border-style: solid; }
+#header a:hover, #header a:active, #header a.active, #header a.isset { background-position: bottom center; }
+#header-inner { background-position: center center; background-repeat: no-repeat; background-attachment: scroll; padding-left: 0px; padding-right: 0px; padding-top: 10px; padding-bottom: 10px; height: 50px; border-style: solid; }
+/*affected selector*/
+#header-inner a { height: 50px; }
+#header .top-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#header .top-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#header .bottom-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#header .bottom-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#header .top-inner { border-top: 0px solid #AAAAAA; background-color:transparent; height: 0px ; }
+#header .bottom-inner { border-bottom: 0px solid #AAAAAA; background-color:transparent; height: 0px ; }
+#header .body-inner { background-color: transparent; }
+#header .body-left { border-left:0px solid #AAAAAA; }
+#header .body-right { border-right:0px solid #AAAAAA; }
+/*Old Skool Nodes*/
+#main .old-node a { color: #39419e; background-color: inherit; border-color: transparent; text-decoration: none; font-weight: bold; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; border-width: 0px; border-style: solid; }
+#main .old-node a:hover, #main .old-node a:active, #main .old-node a.active, #main .old-node a.isset { color: #39419e; background-color: inherit; border-color: transparent; text-decoration: underline; background-position: left top; }
+#main .old-node { color: inherit; font-size: inherit; margin-left: 0px; margin-right: 0px; margin-top: 10px; margin-bottom: 0px; }
+#main .old-node-inner { background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; border-style: solid; }
+#main .old-node .top-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#main .old-node .top-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#main .old-node .bottom-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#main .old-node .bottom-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#main .old-node .top-inner { border-top: 0px solid #AAAAAA; background-color:transparent; height: 0px ; }
+#main .old-node .bottom-inner { border-bottom: 0px solid #AAAAAA; background-color:transparent; height: 0px ; }
+#main .old-node .body-inner { background-color: transparent; }
+#main .old-node .body-left { border-left:0px solid #AAAAAA; }
+#main .old-node .body-right { border-right:0px solid #AAAAAA; }
+/*Page Footer*/
+#footer a { color: #FFFFFF; background-color: transparent; border-color: transparent; text-decoration: none; font-weight: bold; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; border-width: 0px; border-style: solid; }
+#footer a:hover, #footer a:active, #footer a.active, #footer a.isset { color: #FFFFFF; background-color: transparent; border-color: transparent; text-decoration: none; background-position: left top; }
+#footer { color: #FFFFFF; font-size: inherit; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0px; }
+#footer-inner { background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; border-style: solid; }
+#footer .top-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#footer .top-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#footer .bottom-left  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#footer .bottom-right  { padding: 0; background-color:transparent; background-image:none; background-repeat: no-repeat;}
+#footer .top-inner { border-top: 0px solid #424242; background-color:#39419e; height: 0px ; }
+#footer .bottom-inner { border-bottom: 0px solid #424242; background-color:#39419e; height: 0px ; }
+#footer .body-inner { background-color: #39419e; }
+#footer .body-left { border-left:0px solid #424242; }
+#footer .body-right { border-right:0px solid #424242; }
+/*Inputs*/
+#whole input { font-size: 13px; }
+/*affected selector*/
+#whole select, #whole textarea { font-size: 13px; }
+/*Generic Button*/
+#whole .teoti-button a { color: #000000; background-color: #EEEEEE; border-color: #CCCCCC; text-decoration: none; font-weight: bold; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0px; padding-left: 8px; padding-right: 8px; padding-top: 5px; padding-bottom: 5px; border-width: 0px; border-width: 1px; border-style: solid; }
+#whole .teoti-button a:hover, #whole .teoti-button a:active, #whole .teoti-button a.active, #whole .teoti-button a.isset { color: #FFFFFF; background-color: #39419e; border-color: #2f378f; text-decoration: none; background-position: left top; }
+#whole .teoti-button { color: inherit; font-size: 11px; }
+/*Teoti Points*/
+#whole .teoti-points a { color: #CCCCCC; border-style: solid; }
+#whole .teoti-points a:hover, #whole .teoti-points a:active, #whole .teoti-points a.active, #whole .teoti-points a.isset { color: #39419e; }
+#whole .teoti-points { color: #000000; border-color: #010767; background-color: transparent; font-size: 11px; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; margin-left: 0px; margin-right: 10px; margin-top: 0px; margin-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-style: solid; }
+/*triangle*/
+#whole .teoti-points a { background-image: url(/images/phpThumb.php?src=http%3A%2F%2Fwww.teoti.com%2Fimages%2Fshapes%2Ftriangle_CCCCCC_39419e.png&w=36&h=36&f=png); }
+/*Light coloured text*/
+#whole .light { color: #555555; }
+/*Lighter coloured text*/
+#whole .lighter { color: #999999; }
+/*Activity links*/
+#activity-box a { color: #000000; background-color: #EEEEEE; border-color: #CCCCCC; text-decoration: none; font-weight: normal; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0px; padding-left: 8px; padding-right: 8px; padding-top: 5px; padding-bottom: 5px; border-width: 0px; border-width: 1px; border-style: solid; }
+#activity-box a:hover, #activity-box a:active, #activity-box a.active, #activity-box a.isset { color: #FFFFFF; background-color: #39419e; border-color: #2f378f; text-decoration: none; background-position: left top; }
+#activity-box { color: inherit; font-size: 11px; }
+/*Header Text (Large)*/
+#whole #main h2 a { color: #39419e; font-weight: bold; text-decoration: none; border-style: solid; }
+#whole #main h2 a:hover, #whole #main h2 a:active, #whole #main h2 a.active, #whole #main h2 a.isset { color: #39419e; text-decoration: underline; }
+#whole #main h2 { color: #000000; border-color: #010767; background-color: transparent; font-size: 24px; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-style: solid; }
+/*Header Text (Medium)*/
+#whole #main h3 a { color: #39419e; font-weight: bold; text-decoration: none; border-style: solid; }
+#whole #main h3 a:hover, #whole #main h3 a:active, #whole #main h3 a.active, #whole #main h3 a.isset { color: #39419e; text-decoration: underline; }
+#whole #main h3 { color: #000000; border-color: #010767; background-color: transparent; font-size: 16px; background-image: none; background-position: left top; background-repeat: repeat; background-attachment: scroll; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; border-width: 0px; border-style: solid; }

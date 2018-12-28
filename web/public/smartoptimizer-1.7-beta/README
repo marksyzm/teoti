@@ -1,0 +1,89 @@
+SmartOptimizer v1.7 beta
+------------------------
+Author: Ali Farhadi (http://farhadi.ir/)
+Released under the terms of the GNU Public License.
+See the GPL for details (http://www.gnu.org/licenses/gpl.html).
+
+
+What is SmartOptimizer?
+-----------------------
+SmartOptimizer is a php program that enhances your website performance using 
+techniques such as minifying, compression, caching, concatenation and embedding.
+The idea is based on yahoo performace rules (http://developer.yahoo.com/performance/rules.html).
+
+
+SmartOptimizer Features
+-----------------------
+* SmartOptimizer Increases your website download speed by reducing the size of JavaScript and 
+  CSS files approximately up to 80% or even higher.
+* Reduces count of http requests by combining js/css files together.
+* Also reduces count of http requests by embedding css images inside css files.
+* SmartOptimizer generates minified, compressed, combined and embedded files on the 
+  first request and caches them on the server and uses the cache on future requests.
+* It doesn't embed duplicated urls (i.e. css sprites) in css files for better performance.
+* It also knows to regenerate already cached files if the originals have been changed.
+* SmartOptimizer handles browsers that doesn't support gzip encoding and sends them non-gzipped content.
+* It also forces the browser to cache the files optionally forever or until they have not changed.
+* SmartOptimizer removes Etag headers. (for better performance on clustered servers).
+* It is easy to install, since it requires no code modifications whatsoever. (other than .htaccess)
+* All the features is configurable using config file.
+
+
+Installation Requirements
+-------------------------
+* PHP 4.3.0 or higher.
+* Apache with mod_rewrite enabled.
+
+
+Installation Instructions
+------------------------
+1. Upload smartoptimizer folder to your website.
+2. "smartoptimizer/cache" folder should be writable (in most cases 777 permission is needed).
+3. Upload .htaccess file on the folder that smartoptimizer folder is placed, if there is no another htaccess file currently.
+   Otherwise, Copy content of SmartOptimizer htaccess file and paste it inside your current htaccess at the beginning of the file.
+4. It's ready. Enjoy it.
+
+
+Bug reports
+-----------
+SmartOptimizer is in beta stage and needs a large scale testing specially for its css and js minifiers.
+So any feedback is greatly appreciated.
+
+Use the project page at googlecode for bug reports:
+http://code.google.com/p/smartoptimizer/
+
+
+
+Installation Instructions
+
+    * Extract archive file and copy smartoptimizer folder to your website.
+    * SmartOptimizer will need write access to the cache folder (placed in smartoptimizer folder).
+    * if Apache mod_rewrite is enabled on your website, you should place .htaccess file beside smartoptimizer folder. and if your website already have a .htaccess file, you should properly modify it to add required rules. (to do this copy smartoptimizer htaccess contents and paset it inside your current htaccess at the begining of the file.)
+    * if Apache mod_rewrite is not enabled or if your web server is not Apache, you should change all of JavaScript and CSS urls used on your website from "path/to/file/filename" to "smartoptimizer/?path/to/file/filename".
+      See the following examples :
+      Script tag:
+
+      <script src="smartoptimizer/?path/to/file/jsfile.js"></script>
+
+      CSS link:
+
+      <link rel="stylesheet" href="smartoptimizer/?path/to/file/cssfile.css" />
+
+      CSS @import rule:
+
+      @import url("smartoptimizer/?path/to/file/cssfile.css");
+
+    * Note that the folder structure must be something like this:
+
+      /public_html
+          .htaccess
+          /smartoptimizer
+              /cache
+              config.php
+              index.php
+
+    * to use concatenation feature, the files should be placed in the same place. and links to the files should be like the following examples:
+
+      <link rel="stylesheet" href="path/to/file/cssfile1.css,cssfile2.css,cssfile3.css" />
+      <script src="path/to/file/jsfile1.js,jsfile2.js,jsfile3.js"></script>
+

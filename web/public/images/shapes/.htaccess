@@ -1,0 +1,8 @@
+Options +FollowSymLinks
+
+##these likely won't work on titaninternet
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteRule ^triangle_([a-f0-9]{6})_([a-f0-9]{6})\.png$ triangle.php?color1=$1&color2=$2 [QSA,PT,NC,L]
+	RewriteRule ^triangle_32_([a-f0-9]{6})_([a-f0-9]{6})\.png$ triangle.php?maxsize=32&color1=$1&color2=$2 [QSA,PT,NC,L]
+</IfModule>

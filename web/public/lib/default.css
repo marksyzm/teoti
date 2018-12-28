@@ -1,0 +1,240 @@
+/***** default css ******/
+
+.updateinput {
+	width:98.5%;
+}
+
+.leftcell {
+	width:150px;
+}
+
+.fifth {
+	float:left;
+	width:20%;
+}
+
+.quarter {
+	float:left;
+	width:25%;
+}
+
+.third {
+	float:left;
+	width:33%;
+}
+
+.half {
+	float:left;
+	width:50%;
+}
+
+.twothirds {
+	float:left;
+	width:67%;
+}
+
+.threequarter {
+	float:left;
+	width:75%;
+}
+
+.fullwidth {
+	width:100%;
+}
+
+#whole .message {
+	color:#00BB00;
+	font-weight:bold;
+}
+
+#whole .error {
+	color:#BB0000;
+	font-weight:bold;
+}
+
+.aligncenter {
+	text-align:center;
+}
+
+.alignright {
+	text-align:right;
+}
+
+.alignleft {
+	text-align:left;
+}
+
+.alignjustify {
+	text-align:justify;
+}
+
+.normal {
+	font-weight:normal;
+}
+
+.light {
+	color:#667c92;
+}
+
+.lighter {
+	color:#b2bdc8;
+}
+
+.spacer {
+	height:20px;
+}
+
+.showthis {
+	display:block;
+}
+
+.hidethis {
+	display:none;
+}
+
+.indent {
+	margin-left:20px;
+}
+
+.orange {
+	color:#EF6D18;
+}
+
+.floatleft {
+	float:left;
+}
+
+.floatright {
+	float:right;
+}
+
+.floatnone {
+	float:none;
+}
+
+div.vertspacer {
+	
+}
+
+span.vertspacer {
+	
+}
+
+.clearboth {
+	clear:both;
+	height:0;
+	display:block;
+}
+
+.nopadding {
+	padding:0px;
+}
+
+.nomargin {
+	margin:0px;
+}
+
+.displayblock {
+	display:block;
+	width:100%;
+}
+
+.displayinline {
+	display:inline;
+}
+
+.block {
+	display:block;
+}
+
+.paddingtop {
+	padding-top:10px;
+}
+
+.paddingbottom {
+	padding-bottom:10px;
+}
+
+.margintop {
+	margin-top:10px;
+}
+
+.marginright {
+	margin-right:10px;
+}
+
+.marginbottom {
+	margin-bottom:10px;
+}
+
+.marginleft {
+	margin-left:10px;
+}
+
+.dblmarginleft {
+	margin-left:20px;
+}
+
+.dblmarginbottom {
+	margin-bottom:20px;
+}
+
+.margincenter {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.strikethrough, .linethrough {
+	text-decoration:line-through;
+}
+
+.strong {
+	font-weight:bold;
+}
+
+.movethis, .movethis span {
+	cursor:move;
+}
+
+.absolute {
+	position:absolute;
+}
+
+.topline {
+	border-top:1px solid #DFE6E7;
+}
+
+.bottomline {
+	border-bottom:1px solid #DFE6E7;
+}
+
+.last-left, #whole .last-left {
+	margin-right:-3px;
+}
+
+.last-right, #whole .last-right {
+	margin-left:-3px;
+}
+
+.hide-me {
+	display:none;
+}
+
+.show-me {
+	display:block;
+}
+
+.popup {
+	position:absolute;
+	display:none;
+}
+
+.largeinput {
+	font-size:16px;
+}
+
+.underline {
+	text-decoration:underline
+}
+
+/***** end default css *****/

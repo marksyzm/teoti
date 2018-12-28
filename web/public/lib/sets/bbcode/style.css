@@ -1,0 +1,163 @@
+/* -------------------------------------------------------------------
+// markItUp!
+// By Jay Salvat - http://markitup.jaysalvat.com/
+// ------------------------------------------------------------------*/
+#whole .markItUp .markItUpButton1 a	{
+	background-image:url(images/bold.png);
+}
+#whole .markItUp .markItUpButton2 a	{
+	background-image:url(images/italic.png);
+}
+#whole .markItUp .markItUpButton3 a	{
+	background-image:url(images/underline.png);
+}
+
+#whole .markItUp .markItUpButton4 a	{
+	background-image:url(images/picture.png);
+}
+#whole .markItUp .markItUpButton5 a	{
+	background-image:url(images/link.png);
+}
+
+#whole .markItUp .markItUpButton6 a	{
+	background-image:url(images/colors.png);
+}
+
+	#whole .bbcode .markItUpButton6 ul {
+		width:81px;
+		padding:1px;	
+	}
+	
+	#whole .bbcode .markItUpButton6  li {
+		border:1px solid white;
+		width:25px;	height:25px;
+		overflow:hidden;
+		padding:0px; margin:0px;
+		float:left;
+	}
+	
+	#whole .bbcode .markItUpButton6 ul a {
+		width:25px;	height:25px;
+	}
+	
+	#whole .bbcode .markItUpButton6 ul a:hover {
+		background-color:none;
+	}
+	
+	#whole .bbcode .markItUpButton6 .col1-1 a {
+		background:#FCE94F;
+	}
+	#whole .bbcode .markItUpButton6 .col1-2 a {
+		background:#EDD400;
+	}
+	#whole .bbcode .markItUpButton6 .col1-3 a {
+		background:#C4A000;
+	}
+	#whole .bbcode .markItUpButton6 .col2-1 a {
+		background:#FCAF3E;
+	}
+	#whole .bbcode .markItUpButton6 .col2-2 a {
+		background:#F57900;
+	}
+	#whole .bbcode .markItUpButton6 .col2-3 a {
+		background:#CE5C00;
+	}
+	#whole .bbcode .markItUpButton6 .col3-1 a {
+		background:#E9B96E;
+	}
+	#whole .bbcode .markItUpButton6 .col3-2 a {
+		background:#C17D11;
+	}
+	#whole .bbcode .markItUpButton6 .col3-3 a {
+		background:#8F5902;
+	}
+	#whole .bbcode .markItUpButton6 .col4-1 a {
+		background:#8AE234;
+	}
+	#whole .bbcode .markItUpButton6 .col4-2 a {
+		background:#73D216;
+	}
+	#whole .bbcode .markItUpButton6 .col4-3 a {
+		background:#4E9A06;
+	}
+	#whole .bbcode .markItUpButton6 .col5-1 a {
+		background:#729FCF;
+	}
+	#whole .bbcode .markItUpButton6 .col5-2 a {
+		background:#3465A4;
+	}
+	#whole .bbcode .markItUpButton6 .col5-3 a {
+		background:#204A87;
+	}
+	#whole .bbcode .markItUpButton6 .col6-1 a {
+		background:#AD7FA8;
+	}
+	#whole .bbcode .markItUpButton6 .col6-2 a {
+		background:#75507B;
+	}
+	#whole .bbcode .markItUpButton6 .col6-3 a {
+		background:#5C3566;
+	}
+	#whole .bbcode .markItUpButton6 .col7-1 a {
+		background:#EF2929;
+	}
+	#whole .bbcode .markItUpButton6 .col7-2 a {
+		background:#CC0000;
+	}
+	#whole .bbcode .markItUpButton6 .col7-3 a {
+		background:#A40000;
+	}
+	#whole .bbcode .markItUpButton6 .col8-1 a {
+		background:#FFFFFF;
+	}
+	#whole .bbcode .markItUpButton6 .col8-2 a {
+		background:#D3D7CF;
+	}
+	#whole .bbcode .markItUpButton6 .col8-3 a {
+		background:#BABDB6;
+	}
+	#whole .bbcode .markItUpButton6 .col9-1 a {
+		background:#888A85;
+	}
+	#whole .bbcode .markItUpButton6 .col9-2 a {
+		background:#555753;
+	}
+	#whole .bbcode .markItUpButton6 .col9-3 a {
+		background:#000000;
+	}
+
+
+#whole .markItUp .markItUpButton7 a	{
+	background-image:url(images/fontsize.png);
+}
+#whole .markItUp .markItUpButton8 a	{
+	background-image:url(images/fonts.png);
+}
+#whole .markItUp .markItUpButton9 a	{
+	background-image:url(images/list-bullet.png);
+}
+#whole .markItUp .markItUpButton10 a	{
+	background-image:url(images/list-numeric.png);
+}
+#whole .markItUp .markItUpButton11 a	{
+	background-image:url(images/list-item.png);
+}
+
+#whole .markItUp .markItUpButton12 a	{
+	background-image:url(images/quotes.png);
+}
+#whole .markItUp .markItUpButton13 a	{
+	background-image:url(images/code.png);
+}
+	
+#whole .markItUp .clean a {
+	background-image:url(images/clean.png);
+}
+#whole .markItUp .preview a {
+	background-image:url(images/preview.png);
+}
+
+#whole .markItUp .markItUpButton a {
+	background-repeat:no-repeat;
+	background-position:2px 50%;
+}

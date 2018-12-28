@@ -1,0 +1,550 @@
+
+body {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida', Arial, Tahoma, Verdana, sans-serif;
+}
+
+body, html {
+	height:100%;
+}
+
+body, table { 
+	font-size:11px; 
+}
+
+h1,h2,h3,h4 {
+	font-weight:normal;
+}
+
+h1 {
+	font-size:24px;
+	padding-bottom:10px;
+}
+
+h2 {
+	font-size:18px;
+	padding-bottom:10px;
+}
+
+h3 {
+	font-size:14px;
+	padding-bottom:8px;
+}
+
+h4 {
+	font-size:14px;
+	padding-bottom:6px;
+}
+
+p {
+	padding-top:6px;
+	padding-bottom:6px;
+}
+
+#body ul {
+	margin-left:15px;
+}
+
+#body ol {
+	margin-left:20px;
+}
+
+input, select, textarea {
+	border:1px #999 solid;
+}
+
+a {
+	text-decoration:none;
+	cursor:pointer;
+}
+
+small {
+	font-size:9px;
+}
+
+#col-right-outer {
+	float:right;
+}
+
+* html #content, * html #col-right, * html .header, * html .header-inner, * html #content-inner, * html #login-inner,* html #pagination
+, * html .teoti-button, * html .box .col-head-links, * html .feed-node, * html .feed-node-inner, * html #feed-node-outer, * html #footer-inner {
+	height:0%;
+}
+
+*, #whole * {
+	zoom:1;
+}
+
+#content-inner {
+	overflow:hidden;
+}
+
+#content, #content-inner {
+	width:auto;
+}
+
+#content-inner, #col-right-inner {
+	/*min-height:460px;
+	height:auto !important;
+	height:460px;*/
+}
+
+#main-outer {
+	text-align:left;
+}
+
+#footer-inner {
+	min-height:14px;
+	height:auto;
+}
+
+#banner, #share {
+	text-align:center;
+}
+
+#share {
+	padding:10px 0px 10px;
+}
+
+#share a {
+	display:block;
+	float:left;
+	width:14.25%;
+}
+
+#share a.first {
+	margin-left:0px;
+}
+
+#share img, .col-head-icon img, .node-icon img, .select-forum img, #thread-icon img, .login-icon img, .history-icon img, .palette-icon img {
+	width:16px;
+	height:16px;
+	background:transparent url(../images/icons.png) no-repeat 0px 0px;
+}
+
+.node-icon, #thread-icon, .login-icon, .history-icon {
+	float:left;
+	margin-right:10px;
+}
+
+.node-image {
+	float:right;
+}
+
+.node-content { /*** these are to be worked out in the style-dynamic files **/
+	margin-left:60px;
+}
+
+.node-time {
+	float:right;
+}
+
+#thread-content, .node-snippet {
+	overflow:hidden;
+	overflow-x:hidden;
+}
+
+#thread-title-text {
+	float:left;
+}
+
+#whole #thread-head #thread-title h3, #whole #thread-head #thread-title p {
+	margin-left:86px;
+}
+
+.node-content.node-content-hasimage {
+	margin-right:80px;
+}
+
+.node-content.node-content-nopoints {
+	margin-left:0px;
+}
+
+#feed-nodes .node-snippet, .node-bits, #feed-nodes .node-title  {
+	margin-left:26px;
+}
+
+.node-snippet {
+	/*min-height:36px;
+	height:auto;*/
+}
+
+#feed-nodes .node-snippet p {
+	padding:3px 0px;
+}
+
+.post-snippet {
+	min-height:43px;
+	height:auto;
+}
+
+.teoti-points {
+	float:left; 
+	width:50px;
+	text-align:center;
+}
+
+.teoti-points .points-inc, .teoti-points .points-dec {
+	display:block;
+	margin:0 auto;
+	width:16px;
+	height:16px;
+}
+
+.teoti-points .points-bit {
+	margin:2px 0px 5px;
+	cursor:default;
+}
+
+.teoti-points.inactive a {
+	cursor:default;
+}
+
+#shoutbox-panel {
+	display:none;
+}
+
+#feed-shouts {
+	height:200px;
+	overflow:auto;
+}
+
+#whole .teoti-button a {
+	display:inline-block;
+	padding:5px 8px;
+}
+
+.feed-shout {
+	margin-bottom:10px;
+}
+
+#feed-me {
+	display:none;
+}
+
+.col-head-links {
+	padding:10px;
+	display:none;
+}
+
+.col-head-icon {
+	width:16px;
+	height:16px;
+	float:left;
+}
+
+.col-head-link {
+	margin:0px 50px 0px 0px;
+}
+
+.col-head-link.with-icon, .history-link {
+	margin-left:18px;
+}
+
+.col-head-points {
+	width:48px;
+	padding:2px 0px;
+	text-align:right;
+	float:right;
+}
+
+.col-head-link a {
+	display:block;
+	padding:0px 0px 6px;
+}
+
+.login-text {
+	padding:0px 0px 5px;
+}
+
+#whole #content-col .teoti-points .popup {
+	padding:10px;
+	width:280px;
+	z-index:5;
+}
+
+#whole #col-right .popup, #content-col #filter-box .popup, #notification-box {
+	z-index:5;
+}
+
+#whole #col-right #whosonline-outer .popup, #whole #whos-watching .popup {
+	padding:5px;
+}
+
+#whole #col-right .header .popup {
+	/*width:160px;*/
+}
+
+#notification-box {
+	position:fixed;
+	bottom:0px;
+	right:0px;
+}
+
+#notification-box a {
+	display:block;
+	width:168px !important;
+	width:200px;
+	padding:8px 16px;
+}
+
+#whole #col-right .popup a, #content-col #filter-box .popup a {
+	display:block;
+	width:128px !important;
+	width:160px;
+	padding:8px 16px;
+}
+
+#pagetext, #pagetext-wysiwig {
+	width:100%;
+	height:450px;
+}
+
+#category-chosen span {
+	font-weight:bold;
+}
+
+/*.isset {
+	cursor:default;
+}*/
+
+#thread-user {
+	float:right;
+	text-align:right;
+	margin-left:10px;
+}
+
+#thread-user .node-image {
+	float:none;
+}
+
+.font-size-1 {
+	font-size:6px;
+}
+
+.font-size-2 {
+	font-size:8px;
+}
+
+.font-size-3 {
+	font-size:11px;
+}
+
+.font-size-4 {
+	font-size:14px;
+}
+
+.font-size-5 {
+	font-size:22px;
+}
+
+.font-size-6 {
+	font-size:32px;
+}
+
+.font-size-7 {
+	font-size:48px;
+}
+
+#content .section-outer {
+	margin-top:10px;
+}
+
+#body-inner {
+	position:relative;
+}
+
+#content-col #content h3, #content-col #shoutbox h3 {
+	font-weight:bold;
+}
+
+#quote-button {
+	position:absolute;
+	display:none;
+}
+
+.code {
+	overflow:auto;
+}
+
+.image-resize {
+	z-index:5;
+}
+
+#palette {
+	background:#FFFFFF;
+	padding:9px;
+	border:1px solid #010767;
+	position:absolute;
+	z-index:800;
+	width:400px;
+	top:0;
+	left:0;
+	display:none;
+}
+
+#palette {
+	-webkit-box-shadow: 0px 1px 4px #000000;
+	-moz-box-shadow: 0px 1px 4px #000000;
+	box-shadow: 0px 1px 4px #000000; 
+}
+
+#palette .palette-buttons a {
+	display:inline-block;
+	padding:4px 7px;
+	border:1px solid #EEEEEE;
+	background-color:#EEEEEE;
+	color:#444444;
+}
+
+#palette .palette-buttons a:hover, #palette .palette-buttons a.active {
+	border:1px solid #BBBBBB;
+	color:#000000;
+}
+
+#palette .move-this {
+	margin-bottom:10px;
+	cursor:move;
+}
+
+#palette .palette-section {
+	display:none;
+}
+
+#palette .palette-section.active {
+	display:block;
+}
+
+#palette .palette-colorpicker-tool.active {
+	background-color:#EEEEEE;
+}
+
+#palette .palette-colorpicker-clear, #palette .palette-colorpicker-box {
+	width:16px;
+	height:16px;
+	float:left;
+	margin-right:5px;
+	border:1px solid #EEEEEE;
+	display:block;
+	cursor:pointer;
+}
+
+#palette .palette-colorpicker-clear:hover, #palette .palette-colorpicker-choose a:hover .palette-colorpicker-box
+,#palette .palette-colorpicker-tool.active .palette-colorpicker-box {
+	border:1px solid #010767;
+}
+
+#palette .palette-colorpicker-choose a {
+	display:block;
+	margin-left:23px;
+}
+
+#palette-colorpicker {
+	text-align:center;
+}
+
+#palette .colorpicker {
+	margin:0 auto;
+	text-align:left;
+}
+
+#palette .ui-slider {
+	position: relative;
+	text-align: left;
+	height:8px;
+	border:1px solid #BBBBBB;
+	margin:0px 8px;
+	cursor:pointer;
+}
+
+#palette .ui-slider .ui-slider-handle {
+	cursor: e-resize;
+	height: 14px;
+	border:1px solid #888888;
+	background-color:#BBBBBB;
+	position: absolute;
+	width: 14px;
+	z-index: 2;
+	top:-4px;
+	margin-left:-8px;
+}
+
+#palette .ui-slider .ui-slider-handle.ui-state-hover {
+	background-color:#FFFFCC;
+	border-color:#BBBB66;
+}
+
+.select-background-position {
+	float:right;
+	width:30px;
+	margin-top:6px;
+	margin-right:10px;
+}
+	
+.select-background-position a {
+	display:block;
+	float:left;
+	margin:0 0 1px 1px;
+	padding-left:7px;
+	padding-top:7px;
+	border:1px solid #EEEEEE;
+}
+
+.select-background-position a.active {
+	border:1px solid #010767;
+}
+
+.background-image-preview .preview-box {
+	width:103px;
+	height:57px;
+	float:right;
+	margin-bottom:10px;
+	border:1px solid #DDDDDD;
+}
+
+
+#col-right-outer {
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+#content-col {
+	overflow:hidden;
+}
+
+#content-outer {
+	overflow:auto;
+}
+
+#footer {
+	text-align:left;
+}
+
+
+#whole .teoti-points a.points-inc, #whole .teoti-points a.points-dec {
+	background-position:-1px -1px;
+	background-repeat:no-repeat;
+}
+
+#whole .teoti-points a.points-inc:hover, #whole .teoti-points a.points-inc.isset, #whole .teoti-points a.points-inc.active,
+#whole .teoti-points a.points-dec:hover, #whole .teoti-points a.points-dec.isset, #whole .teoti-points a.points-dec.active {
+	background-position:-1px -19px;
+}
+
+#whole .teoti-points a.points-dec {
+	background-position:-19px -1px;
+}
+
+#whole .teoti-points a.points-dec:hover, #whole .teoti-points a.points-dec.isset, 
+#whole .teoti-points a.points-dec.active {
+	background-position:-19px -19px;
+}
+
+#header-inner a {
+	display:block;
+	background-color:transparent;
+}
+
+#image-upload-container {
+	display:none;
+}

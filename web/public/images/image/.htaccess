@@ -1,0 +1,6 @@
+Options +FollowSymLinks -Multiviews -indexes
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+    RewriteRule ^([A-Za-z]+)\.(jpe?g|png|gif) index.php?code=$1 [QSA,PT,L]
+</IfModule>

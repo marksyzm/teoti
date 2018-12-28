@@ -1,0 +1,30 @@
+web:
+  image: nginx:1.11.12-alpine
+  ports:
+    - "80:80"
+  volumes_from:
+    - php
+  volumes:
+    - ./site.conf:/etc/nginx/conf.d/default.conf
+  links:
+    - php
+  depends_on:
+    - phpfpm
+#    - mysql
+php:
+  image: php:5.6.30-alpine
+  volumes:
+    - ./:/code
+#mysql:
+#  image: webhippie/mariadb:latest
+#  ports:
+#    - "3306:3306"
+#  environment:
+#    MARIADB_USERNAME: teoti
+#    MARIADB_PASSWORD: jericho32
+#    MARIADB_DATABASE: teoti
+#    MARIADB_ROOT_PASSWORD: 111111
+#  volumes:
+#    - ./:/app
+#    - ./mysql/data:/var/lib/mysql
+#    - ./mysql/conf.d:/etc/mysql/conf.d

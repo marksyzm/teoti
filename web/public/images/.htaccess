@@ -1,0 +1,21 @@
+Options +FollowSymLinks
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	#RewriteBase /
+	RewriteRule ^rounded_([a-f0-9]{6})_([a-f0-9]{6})_([0-9]+)_([0-9]+)\.png$ rounded.php?c=$1&bc=$2&r=$3&b=$4 [QSA,PT,NC,L]
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 seconds"
+  ExpiresByType text/html "access plus 2592000 seconds"
+  ExpiresByType image/gif "access plus 2592000 seconds"
+  ExpiresByType image/jpeg "access plus 2592000 seconds"
+  ExpiresByType image/png "access plus 2592000 seconds"
+</IfModule>
+
+<FilesMatch "\.(php|htm|html)$">
+	Header set Cache-Control "max-age=2592000"
+	Header unset Accept-Encoding
+</FilesMatch>
